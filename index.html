@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p><b>Enter your name:</b><br/>
+            <input type="text" size="40" id="name" placeholder="Name">
+            <input type="text" size="40" id="surname" placeholder="Surname">
+        </p>
+        <p><b>Birthday:</b><br/>
+            <input type="date" size="40" id="birthday">
+        </p>
+        <p><b>Gender:</b><br/>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </p>
+        <p><b>Residential address</b><br/>
+            City:<br/>
+            <select  id="city">
+                <option value="Dnipro">Dnipro</option>
+                <option value="Kyiv">Kyiv</option>
+                <option value="Kharkiv">Kharkiv</option>
+                <option value="Lutsk">Lutsk</option>
+                <option value="Lviv">Lviv</option>
+                <option value="Odesa">Odesa</option>
+                <option value="Poltava">Poltava</option>
+                <option value="Sumy">Sumy</option>
+                <option value="Ternopil">Ternopil</option>
+                <option value="Uzhhorod">Uzhhorod</option>
+                <option value="Vinnytsia">Vinnytsia</option>
+            </select> <br/>
+           
+            Street:<br/>
+            <textarea id="address" cols="30" rows="5"></textarea>
+        </p>
+        <p><b>Languages you speak:</b><br/>
+            <input type="checkbox" name="language" id="English">English <br/>
+            <input type="checkbox" name="language" id="Ukrainian">Ukrainian <br/>
+            <input type="checkbox" name="language" id="Polish">Polish <br/>
+            <input type="checkbox" name="language" id="Chinese">Chinese <br/>
+            <input type="checkbox" name="language" id="Spanish">Spanish <br/>
+            <input type="checkbox" name="language" id="russian">russian <br/>
+        </p>
+		<button type="submit">Save</button>
+	</form>
+      
+    <script src="script.js"></script>
+    
+</body>
+</html>
